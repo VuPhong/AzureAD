@@ -26,6 +26,9 @@ namespace AzureADTest
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/Site.css"));
+
+            //To enable bundling and minification, uncomment below line.
+            //BundleTable.EnableOptimizations = true;
         }
     }
 }
